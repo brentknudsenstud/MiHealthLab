@@ -4,8 +4,10 @@ body, p {
 
 h2 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
 }
-nav .primary-nav {
+nav .primary-nav ul li {
     text-decoration: none;
     list-style-type: none;
+
 }
