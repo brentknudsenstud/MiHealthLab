@@ -5,8 +5,13 @@ body, p {
 h2 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: green;
+    float: left;
 }
-nav .primary-nav > ul > li {
+
+.primary-nav {
+    float: right;
+}
+nav .primary-nav ul li {
     text-decoration: none;
     list-style-type: none;
 
