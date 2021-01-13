@@ -30,3 +30,8 @@ nav {
     padding: 25px 10px 0 10px;
     display: inline-block;
 }
+
+.graybackdrop {
+    background-color: #E0E0E0;
+    clear: both;
+}
