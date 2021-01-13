@@ -13,11 +13,11 @@ header {
     display: inline-block;
 }
 .mi {
-    color: red;
+    color: #cd2122;
 }
 
 .health {
-    color: green;
+    color: #acc62a;
 }
 
 nav {
@@ -27,6 +27,6 @@ nav {
 .primary-nav ul li {
     text-decoration: none;
     list-style-type: none;
-    padding: 22px 10px 0 10px;
+    padding: 25px 10px 0 10px;
     display: inline-block;
 }
