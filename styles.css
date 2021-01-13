@@ -32,6 +32,7 @@ nav {
 }
 
 .graybackdrop {
-    background-color: #E0E0E0;
+    background-image: url("fabric_plaid.png");
+  background-repeat: repeat-y;
     clear: both;
 }
