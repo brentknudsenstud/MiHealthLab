@@ -30,9 +30,13 @@ nav {
     padding: 25px 10px 0 10px;
     display: inline-block;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .graybackdrop {
     background-image: url("fabric_plaid.png");
-  background-repeat: repeat-y;
+    background-repeat: repeat-y;
     clear: both;
 }
