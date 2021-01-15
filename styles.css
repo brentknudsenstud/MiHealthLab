@@ -7,7 +7,8 @@ p {
 }
 header {
     display: block;
-    margin: 20px;
+    margin: 15px;
+    
 }
 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -15,6 +16,7 @@ header {
     float: left;
     padding: 10px;
     display: inline-block;
+  
 }
 .mi {
     color: #cd2122;
@@ -40,7 +42,7 @@ a {
 }
 
 .graybackdrop {
-    background-image: url("fabric_plaid.png");
+    background-image: url("images/fabric_plaid.png");
     background-repeat: cover;
     padding: 30px;
     clear: both;
@@ -52,31 +54,42 @@ a {
 }
 
 .child:first-child {
+    margin: 0 5px;
     flex-grow: 1;
-    clear: both;
 
 }
 .child {
-    margin: 5px;
+    margin: 0 5px;
     order: 1;
     width: 25%;
-    clear: both;
+    position: relative;
 }
 
 .child img {
     width: 100%;
-    clear: both;
+    position: relative;
+
 }
 .child p:last-child {
     font-weight: bold;
 }
 .subchild {
+    font-size: .75em;
     font-weight: bold;
     text-align: right;
-    flex-direction: columnn;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
 
 }
-.subchild :first-child {
+ .subchildren  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.subchild:first-child {
+    margin: 0 0 0 70%;
     padding: 10px;
     background-color: white;
 }
@@ -91,3 +104,4 @@ h1 {
     font-weight: bold;
     line-height: 1em;
 }
+
