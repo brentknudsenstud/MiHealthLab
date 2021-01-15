@@ -44,8 +44,47 @@ a {
     background-repeat: cover;
     padding: 30px;
     clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
 }
 
+.child:first-child {
+    flex-grow: 1;
+    clear: both;
+
+}
+.child {
+    margin: 5px;
+    order: 1;
+    width: 25%;
+    clear: both;
+}
+
+.child img {
+    width: 100%;
+    clear: both;
+}
+.child p:last-child {
+    font-weight: bold;
+}
+.subchild {
+    font-weight: bold;
+    text-align: right;
+    flex-direction: columnn;
+
+}
+.subchild :first-child {
+    padding: 10px;
+    background-color: white;
+}
+.subchild:last-child {
+    margin: 0 0 0 45%;
+    padding: 10px;
+    background-color: #8cc628;
+}
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-stretch: extra-expanded;
