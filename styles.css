@@ -16,9 +16,8 @@ header {
 }
 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2em;
-    float: left;
-    margin: 10px;
+    font-size: 2.5em;
+    margin: 0 10px;
   
 }
 .mi {
@@ -48,8 +47,7 @@ a {
 .graybackdrop {
     background-image: url("images/fabric_plaid.png");
     background-repeat: cover;
-    padding: 30px;
-    clear: both;
+    padding: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -59,9 +57,9 @@ a {
 }
 
 .child1 {
-    margin: 0 5px;
+    margin: 0 10px;
     order: 1;
-    height: 340.39;
+    height: 340.39px;
     width: 25%;
     flex-grow: 1;
 }
@@ -129,7 +127,7 @@ a {
 }
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-stretch: extra-expanded;
-    font-weight: bold;
+    font-size: 3em;
+    line-height: .8;
 }
 
