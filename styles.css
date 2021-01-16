@@ -121,7 +121,7 @@ a {
 }
 .subchild:last-child {
     padding: 10px;
-    min-width: 100px;
+    min-width: 9em;
     background-color: #8cc628;
 }
 h1 {
