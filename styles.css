@@ -14,7 +14,7 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
     float: left;
-    padding: 10px;
+    margin: 10px;
     display: inline-block;
   
 }
@@ -33,7 +33,8 @@ nav {
 .primary-nav ul li {
     text-decoration: none;
     list-style-type: none;
-    padding: 25px 10px 0 10px;
+    /* padding: 25px 10px 0 10px; */
+    margin: 0 10px;
     display: inline-block;
 }
 a {
@@ -50,58 +51,82 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    position: relative;
 
 }
 
-.child:first-child {
-    margin: 0 5px;
-    flex-grow: 1;
-
-}
-.child {
+.child1 {
     margin: 0 5px;
     order: 1;
+    height: 340.39;
     width: 25%;
+    flex-grow: 1;
+}
+.child2 {
+    background-image: url("images/apple-quinoa.png");
+    background-size: 100% 100%;
     position: relative;
+    margin: 0 5px;
+    order: 1;
+    height: 340.39px;
+    width: 25%;
 }
 
-.child img {
-    width: 100%;
+.child3 {
+    background-image: url("images/pasta-salad.png");
+    background-size: 100% 100%;
     position: relative;
-
+    margin: 0 5px;
+    order: 1;
+    height: 340.39px;
+    width: 25%;
 }
-.child p:last-child {
+
+.child4 {
+    background-image: url("images/shrimp-bowl.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    margin: 0 5px;
+    order: 1;
+    height: 340.39px;
+    width: 25%;
+}
+.child:first-child {
+    height: 344.39px;
+}
+
+.child1 p:last-child {
     font-weight: bold;
 }
 .subchild {
     font-size: .75em;
     font-weight: bold;
     text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0; 
 
 }
  .subchildren  {
     position: absolute;
     bottom: 0;
     right: 0;
-}
+    display: flex; 
+    align-items: flex-end;
+    flex-direction: column;
+} 
 
 .subchild:first-child {
-    margin: 0 0 0 70%;
     padding: 10px;
     background-color: white;
+    
+
 }
 .subchild:last-child {
-    margin: 0 0 0 45%;
     padding: 10px;
+    min-width: 100px;
     background-color: #8cc628;
 }
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-stretch: extra-expanded;
     font-weight: bold;
-    line-height: 1em;
 }
 
