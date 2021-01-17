@@ -24,6 +24,9 @@ header {
     color: #cd2122;
 }
 
+ul {
+    margin: 27px 0 0 0;
+}
 .health {
     color: #acc62a;
 }
